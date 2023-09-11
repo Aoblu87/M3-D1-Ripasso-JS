@@ -1,8 +1,33 @@
 // 1 Crea una funzione che controlli due numeri Interi. Ritorna True se uno dei due è 50 o la loro somma è 50.
 
-function checkInteger(numberA,numberB){
-    let notInteger= number
+function checkInteger(numberA, numberB) {
+    if (!Number.isInteger(numberA) || !Number.isInteger(numberB))
+        console.log('Non e un numero intero')
+    else sum(numberA,numberB)
 }
+
+
+function sum(numberA, numberB) {
+    let operation= numberA+numberB
+    if (numberA === 50 || numberB === 50) {
+        result = true
+    }
+    else if (numberA + numberB === 50) {
+        result = true
+    }
+    else result= false
+    console.log(operation)
+    console.log(result)
+}
+
+// checkInteger(25.5, 25)
+
+// Esercizio 2
+// Crea una funzione che rimuova il carattere ad una specifica posizione da una stringa. 
+// Passa la stringa e la posisione come parametri e ritorna la stringa modificata
+
+function changeStringa
+
 
 
 
