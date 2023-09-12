@@ -1,5 +1,6 @@
 // 1 Crea una funzione che controlli due numeri Interi. Ritorna True se uno dei due è 50 o la loro somma è 50.
 
+<<<<<<< Updated upstream
 // function round(numberA,numberB){
 //     let roundA= Math.round(numberA)
 //     let roundB=Math.round(numberB)
@@ -62,8 +63,14 @@ function checkNumber(a, b) {
 
     console.log(a)
     console.log(b)
+=======
+function checkInteger(numberA,numberB){
+    if (number.isInteger(numberA)||number.isInteger(numberB))
+    console.log('non è un numero intero')
+else console.log(numberA+numberB)
+>>>>>>> Stashed changes
 }
-
+checkInteger(0,5)
 
 checkNumber(2, 70)
 
