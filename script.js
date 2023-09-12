@@ -1,6 +1,6 @@
-// 1 Crea una funzione che controlli due numeri Interi. Ritorna True se uno dei due è 50 o la loro somma è 50.
+// 1 FATTO
+// Crea una funzione che controlli due numeri Interi. Ritorna True se uno dei due è 50 o la loro somma è 50.
 
-<<<<<<< Updated upstream
 // function round(numberA,numberB){
 //     let roundA= Math.round(numberA)
 //     let roundB=Math.round(numberB)
@@ -38,41 +38,136 @@
 //     console.log(result)
 // }
 
-// Esercizio 2
+// Esercizio 2 FATTO
 // Crea una funzione che rimuova il carattere ad una specifica posizione da una stringa. 
 // Passa la stringa e la posisione come parametri e ritorna la stringa modificata
 
-// function sliceString(string, start,end){
-//     let newString = string.slice(start,end)
+// function sliceString(string, position){
+//     let newString = string.slice(position)
 //     console.log(newString)
 // }
-// sliceString('banana',0,1)
+// sliceString('banana',4)
 
-// esercizio 3
+// esercizio 3 FATTO
 // Crea una funzione che controlli se due numeri siano compresi tra 40 e 60 o tra 70 e 100. ritorna true sew rispecchiano condizioni oppure false
 
-function checkNumber(a, b) {
-   
-    if (!a >= 40 && !a <= 70 || !a >= 70 && !a <= 100) {
-        a = false
-    } else if (!b >= 40 && !b <= 70 || !b >= 70 && !b <= 100) {
-        b = false
-    }
+// function checkNumber(a, b) {
+
+//     if (a >= 40 && a <= 70 || a >= 70 && a <= 100) {
+//         a = true
+//     } else a=false
+
+//     if (b >= 40 && b <= 70 || b >= 70 && b <= 100) {
+//         b = true
+//     } else b=false
 
 
 
-    console.log(a)
-    console.log(b)
-=======
-function checkInteger(numberA,numberB){
-    if (number.isInteger(numberA)||number.isInteger(numberB))
-    console.log('non è un numero intero')
-else console.log(numberA+numberB)
->>>>>>> Stashed changes
-}
-checkInteger(0,5)
+//     console.log(a)
+//     console.log(b)
+// }
 
-checkNumber(2, 70)
+// checkNumber(50, 0)
+
+
+
+// 4 esercizio FATTO
+// Crea una funzione che accetti un nome di città come parametroe ritorni il nome dello stesso se comincia con 'Los' o ''new, altrimenti false
+// function searchCharacter(city) {
+//     let lower = city.toLowerCase()
+//     let resultA = lower.includes('los')
+//     let resultB = lower.includes('new')
+//     if(resultA||resultB)
+//     console.log(city)
+//     else console.log(false)
+// }
+
+// searchCharacter('New york')
+
+
+
+// 5 esercizio FATTO
+// crea una funzione che calcoli e ritorni la somma di tutti gli elementi di un array. L'array deve essere passato come parametro
+
+// function arrayCount(array){
+//     let result=0
+//   for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     result += element
+
+//   }console.log(result)
+
+// }
+
+// arrayCount([0,1,2,3,4,5])
+
+
+// 6 esercizio
+// Crea una funzione che controlli che un array NON contenga i numeri 1 o 3. Se non li contiene ritorna true altrimenti false
+
+// function notIncludes(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         const element = array[i];
+
+//         let findA = element.includes(1)
+//         let findB = element.includes(3)
+//         let result
+//         if (findA || findB)
+//             result = true
+//         else result = false
+//         console.log(result)
+//     }
+
+// }
+
+// notIncludes([0,4,5])
+
+// 7 esercizio FATTO
+// Crea una funzione per trovare un tipo di angolo i cui gradi sono passati come parametri.
+// Creaangolo acuto: meno di 90gradi torna acuto
+// angolo ottuso tra i 90 e i 180 ritorna ottuso
+// angolo retto 90
+// angolo piatto 180
+
+
+// function triangolo(grado) {
+    
+//     switch (true) {
+//         case (grado < 90): console.log('Angolo Acuto')
+
+//             break;
+//         case (grado > 90 && grado <180): console.log('Angolo Ottuso')
+
+//             break;
+//         case (grado === 90): console.log('Angolo Retto')
+
+//             break;
+//         case (grado === 180): console.log('Angolo Piatto')
+
+//             break;
+
+//         default:
+//             break;
+//     }
+// }
+// triangolo(180)
+
+// 8 esercizio FATTO QUASI
+// crea una funzione che crei un acronimo a partire da una frase es fabbrica italiana automobili torino FIAT
+
+// function acronimo(stringa){
+//     let array= stringa.split(" ")
+//     console.log(array)
+//     for (const word of array) {
+//         let firstLetter= word.slice(0,1)
+//         let acronimo = firstLetter.concat()
+        
+//         console.log(acronimo)
+        
+//     }
+// }
+
+// acronimo('fabbrica italiana automobili torino')
 
 // Esercizi extra
 // NOTA: tutti gli esercizi devono essere svolti usando le funzioni
