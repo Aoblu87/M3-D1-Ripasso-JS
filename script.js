@@ -188,10 +188,50 @@
 // `'# '
 // '## '`
 // `'###'`
+
+
+function scalini(x){
+    let scalini= []
+    scalini.push(x)
+    for (const scalino of scalini) {
+        let stampa= '#'
+        console.log(stampa)
+
+        
+    }
+}
+scalini(2)
+
+
 // 7. Crea una funzione che, data una stringa come parametro, ritorni la stessa stringa, ma al contrario. Es. “Ciao” ****⇒ “oaiC”
-// 8. Crea una funzione che accetti un array e un numero Y come parametro. Dividi l’array in sotto-array aventi lunghezza Y.
+
+// function reverse (stringa){
+// let newArray= stringa.split('')
+// let reverse= newArray.reverse()
+// let newString= reverse.join('')
+// console.log(newString)
+
+// }
+// reverse('ciao')
+
+
+// 8. Crea una funzione che accetti un array e un numero Y come parametro. Dividi l’array in sotto-array aventi lunghezza Y. FATTO
 // Es. array: [1, 2, 3, 4], y: 2 ⇒ [[ 1, 2], [3, 4]]
 // array: [1, 2, 3, 4, 5], y: 4 ⇒ [[ 1, 2, 3, 4], [5]]
+
+
+// function divideArray(array,y){
+//     let newArray=[]
+//     for (let i = 0; i < array.length; i+=y) {
+//         newArray.push(array.slice(i,i+y))
+
+        
+//     }
+//     console.log(newArray)
+
+// }
+// divideArray([0,1,2,3,4,5,6],3)
+
 // 9. Scrivi una funzione che accetti un numero positivo X come parametro. La funzione dovrebbe stampare a console una “piramide” create con il carattere “#” e avente X strati.
 // Es.
 
