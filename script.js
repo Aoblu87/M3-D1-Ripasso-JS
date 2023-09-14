@@ -190,17 +190,7 @@
 // `'###'`
 
 
-function scalini(x){
-    let scalini= []
-    scalini.push(x)
-    for (const scalino of scalini) {
-        let stampa= '#'
-        console.log(stampa)
 
-        
-    }
-}
-scalini(2)
 
 
 // 7. Crea una funzione che, data una stringa come parametro, ritorni la stessa stringa, ma al contrario. Es. “Ciao” ****⇒ “oaiC”
